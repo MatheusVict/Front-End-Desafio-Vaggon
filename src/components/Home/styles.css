@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #00e6e6, #008080);
+    box-sizing: border-box;
+}
+
+.container {
+    max-height: 500px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.todo-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
